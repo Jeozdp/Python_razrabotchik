@@ -7,13 +7,5 @@ print(immutable_var, type(immutable_var))
 # Попытка изменения элемента  кортежа 'банан' на 'апельсин' привоит к ошибке.
 # #поскольку кортежи предназначены для хранения фиксированных наборов значений.
 #3. Создание изменяемых структур данных:
-mutamutable_list = ('яблоко','банан','вишня')
-print(mutamutable_list)
-b= list(mutamutable_list)
-b[1] = 'тЮпл'
-print(b)
-# или
-bebebe = ([1,2],3)
-print(bebebe)
-bebebe[0][0] = 2
-print(bebebe)
+mutable_list = ['яблоко', 'банан', 'вишня']
+mutable_list[0] = 'апельсин'

@@ -2,7 +2,7 @@ my_dict = {'Lera': 1998,'Max': 2001, 'Sasha': 2005}
 print(my_dict)
 print(my_dict['Sasha'])
 my_dict['Osmond'] = 1976
-print(my_dict)
+print(my_dict['Osmond'])
 my_dict.update({'Blake': 2010,
                 'Sybil':1992})
 print(my_dict)
